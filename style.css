@@ -1,0 +1,31 @@
+
+* {
+    box-sizing: border-box;
+  }
+  body{
+width: fit-content;
+  }
+.img {
+    padding: 50px;
+    background-color: green;
+    transition: transform .2s; /* Animation */
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }
+  
+  .img:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  ul li{
+      list-style: none;
+      font-weight: 500;
+      font-style: bold;
+      list-style-type: lower-latin;
+      font-size: medium;
+      display: inline-flex;
+    
+  }
+
+ 
